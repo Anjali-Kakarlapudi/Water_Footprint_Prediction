@@ -1,0 +1,238 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Crop Water Proof</title>
+	 <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+
+	<style>
+		.bg{
+			
+			
+			padding-top:200px;
+			padding-bottom:200px;
+			
+		}
+		
+		.bg2{
+			background-color:#131618;
+			 min-height: 700px;
+			padding-top:130px;
+		}
+		
+		.bg3{
+			background-color:#fff;
+			 min-height: 700px;
+			padding-top:130px;
+		}
+		
+		* {
+  box-sizing: border-box;
+}
+
+.bg-img {
+  /* The image used */
+  background-image: url( "image/pexels-pixabay-220213 (2).jpg");
+
+  min-height: 500px;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/* Add styles to the form container */
+.bg4 {
+  position: absolute;
+  right: 400px;
+  margin: 20px;
+  max-width: 500px;
+  padding: 16px;
+  background-color: rgba(255 255 255);
+}
+
+/* Full-width input fields */
+input[type=text], input[type=number], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=number]:focus, input[type=number]:focus{
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for the submit button */
+.btn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+		
+.login-container{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.login-logo{
+    position: relative;
+    margin-left: -41.5%;
+}
+.login-logo img{
+    position: absolute;
+    width: 20%;
+    margin-top: 19%;
+    background: #282726;
+    border-radius: 4.5rem;
+    padding: 5%;
+}
+.login-form-1{
+    padding: 9%;
+    background:#282726;
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 26px 0 rgba(0, 0, 0, 0.19);
+}
+.login-form-1 h3{
+    text-align: center;
+    margin-bottom:12%;
+    color:#fff;
+}
+.login-form-2{
+    padding: 9%;
+    background: #000080;
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 26px 0 rgba(0, 0, 0, 0.19);
+}
+.login-form-2 h3{
+    text-align: center;
+    margin-bottom:12%;
+    color: #fff;
+}
+.btnSubmit{
+    font-weight: 600;
+    width: 50%;
+    color: #282726;
+    background-color: #fff;
+    border: none;
+    border-radius: 1.5rem;
+    padding:2%;
+}
+.btnForgetPwd{
+    color: #fff;
+    font-weight: 600;
+    text-decoration: none;
+}
+.btnForgetPwd:hover{
+    text-decoration:none;
+    color:#fff;
+}
+		
+		.daily{
+			background-color:#89CFF0;
+			 min-height: 250px;
+			padding-top:100px;
+		}
+
+	
+	</style>
+
+  <script>$(function() {
+
+    $('#login-form-link').click(function(e) {
+		$("#login-form").delay(100).fadeIn(100);
+ 		$("#register-form").fadeOut(100);
+		$('#register-form-link').removeClass('active');
+		$(this).addClass('active');
+		e.preventDefault();
+	});
+	$('#register-form-link').click(function(e) {
+		$("#register-form").delay(100).fadeIn(100);
+ 		$("#login-form").fadeOut(100);
+		$('#login-form-link').removeClass('active');
+		$(this).addClass('active');
+		e.preventDefault();
+	});
+
+});
+</script>
+</head>
+
+<body>
+	<!-- nav bar section starts-->
+	<div class="container-fluid mt-3" >
+  
+  <ul class="nav nav-pills">
+    <li class="nav-item">
+		
+      <img class="image" src="{{url_for('static', filename='image/AQUA SENSE.png')}}" alt="">			
+			
+    </li>
+	  
+<li class="nav-item" Style="margin-left:30em;">
+      <a class="nav-link" href="/" >Home</a>
+    </li>
+																	 
+   
+    <li class="nav-item" >
+      <a class="nav-link" href="about" >About Us</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="login">Sign Up</a>
+    </li>
+	<li class="nav-item">
+      <a class="nav-link" href="contact">Contact Us</a>
+    </li>
+	  
+  </ul>
+		</div>
+	<!-- nav bar section ends-->
+	<!--login form-->
+	<div class="container">
+	<div class="row">
+		<form method="get" action="predictWaterRequirement">
+		<div class="col-sm-4"></div>
+		<div class="col-sm-4">
+		<label>Soil Type:</label>
+		<input type="text" id="soil"  placeholder="Soil type" name="soiltype">
+		<label>Temperature:</label>
+		<input type="text" id="Temperature"  placeholder="Temperature"  name="temp">
+		<label>Humidity:</label>
+		<input type="text" id="Humidity"  placeholder="Humidity" name="humidity">
+		<label>PH:</label>
+		<input type="text" id="ph"  placeholder="PH"  name="ph">
+		<label>Crop Name:</label>
+		<input type="text" id="cropname"  placeholder="Crop Name"  name="cropname">
+		
+  <button type="submit" class="btn btn-primary" style="margin-top:20px;margin-bottom:20px;padding:-10px
+													">Predict</button>
+			</div>
+			</form>
+		<div class="col-sm-4"></div>
+		
+		</div>
+	
+	</div>
+
+  
+		
+	
+</body>
+</html>

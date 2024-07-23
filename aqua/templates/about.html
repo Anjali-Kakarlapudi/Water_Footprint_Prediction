@@ -1,0 +1,153 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>About Us</title>
+	 <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+	<style>
+		.bg{
+			
+			
+			padding-top:200px;
+			padding-bottom:200px;
+			
+		}
+		
+		.bg2{
+			background-color:#131618;
+			 min-height: 700px;
+			padding-top:130px;
+		}
+		
+		.bg3{
+			background-color:#fff;
+			 min-height: 700px;
+			padding-top:130px;
+		}
+		
+		* {
+  box-sizing: border-box;
+}
+
+.bg-img {
+  /* The image used */
+  background-image: url( "image/pexels-pixabay-220213 (2).jpg");
+
+  min-height: 500px;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/* Add styles to the form container */
+.bg4 {
+  position: absolute;
+  right: 400px;
+  margin: 20px;
+  max-width: 500px;
+  padding: 16px;
+  background-color: rgba(255 255 255);
+}
+
+/* Full-width input fields */
+input[type=text], input[type=number], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=number]:focus, input[type=number]:focus{
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for the submit button */
+.btn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+		
+
+	
+	</style>
+</head>
+
+<body>
+	<!-- nav bar section starts-->
+	<div class="container-fluid mt-3" >
+  
+  <ul class="nav nav-pills">
+    <li class="nav-item">
+		
+      <img class="image" src="{{url_for('static', filename='image/AQUA SENSE.png')}}" alt="">			
+			
+    </li>
+	  
+<li class="nav-item" Style="margin-left:40em;">
+      <a class="nav-link" href="/" >Home</a>
+    </li>
+																	 
+   
+    <li class="nav-item" >
+      <a class="nav-link" href="about" >About Us</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="signup">Sign Up</a>
+    </li>
+	<li class="nav-item">
+      <a class="nav-link" href="contact">Contact Us</a>
+    </li>
+	  
+  </ul>
+		</div>
+	<!-- nav bar section ends-->
+	
+<!-- hero section ends-->
+	<!-- about section starts-->
+	<div class="container bg">
+	
+	<div class="row">
+		<div class="col-sm-5">
+		
+		<h1>About Us</h1>
+			<p>The water footprint reveals our profound link to water in everything we consume. From clothes to food, each bears water's mark. It's a reminder to tread lightly, cherishing each droplet as nature's gift. Our footprint reflects values, urging mindful steps for sustainability and an elegant legacy for the future.</p>
+		
+		</div>
+		
+		<div class="col-sm-5">
+		
+		<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQanRub1pBTjR5w8k7_bfja4NR2fvPB375x26xDWP2CJJjYPXyQtzG_Diqcrb1ZoiqGoUA&usqp=CAU" alt="image
+	" width="500px">
+		
+		</div>
+		</div>
+		
+		
+		
+		</div>
+	<br>
+<div class="container-fluid" style="background-color: black; color:white; padding:20px">
+	
+	<center><footer>&copy; Copyright 2024 </footer></center></div>
+	
+</body>
+</html>
